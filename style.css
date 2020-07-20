@@ -287,14 +287,9 @@ i {
 }
 
 .screen5 {
-  background: url("./images/Rectangle3.png") no-repeat;
-  /* background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%) no-repeat; */
+  background: #FFF url("./images/Rectangle3.png") no-repeat;
   padding-top: 100px;
-  height: 490px;
 }
-
-
-
 
 .screen5 img {
   margin-bottom: 30px;
@@ -326,6 +321,7 @@ i {
   font-size: 18px;
   line-height: 22px;
   color: #4985FF;
+  margin-right: 5px;
   }
 
 .text-line {
@@ -355,7 +351,9 @@ i {
   margin-bottom: 85px;
 }
 
-
+.screen6 {
+  
+}
 
 
 
