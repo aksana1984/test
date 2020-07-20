@@ -454,6 +454,47 @@ footer {
   padding: 70px 0 30px 0;
 }
 
+.fa-envelope, .fa-phone-volume, 
+.fa-map-marker-alt, .fa-chevron-right {
+  color: #999999;
+  font-size: 15px;
+}
+
+.footer-block p {
+  max-width: 225px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.info-block {
+  width: 15px;
+  margin-right: 15px;
+}
+
+.info-flex {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.footer-block h3 {
+  margin-bottom: 35px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.line-line .footer-wrapper {
+  margin-bottom: 30px;
+}
+
+.prava {
+  text-align: center;
+}
+
+
 
 
 /* Additional */
