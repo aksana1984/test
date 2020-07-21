@@ -37,6 +37,10 @@ p {
   margin-bottom: 220px;
 }
 
+.menu {
+  display: none;
+}
+
 .header-navigation {
   display: flex;
   justify-content: flex-end;
@@ -230,7 +234,6 @@ h3 {
 .company-flex h2 {
   align-items: flex-start;
   margin-bottom: 40px;
-  max-width: 424px;
 }
 
 .company-text p {
@@ -677,5 +680,115 @@ footer {
   .work-flex-2 {
     flex-wrap: wrap;
   justify-content: space-around;
+  }
+
+  .company-flex {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .company-text p {
+    text-align: center;
+  }
+
+  .company-flex h2 {
+    text-align: center;
+  }
+
+  .company-img img {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 636px) {
+  .navigation-wrapper .menu {
+    display: block;
+    justify-content: center;
+  }
+
+  .navigation-wrapper a {
+    display: none;
+    justify-content: center;
+  }
+
+  header {
+    height: 600px;
+  }
+
+  .banner-area h1 {
+    font-size: 32px;
+  }
+
+  .navigation-wrapper {
+    margin-bottom: 100px;
+  }
+
+  .header-navigation {
+    justify-content: center;
+  }
+  
+  .proj-flex {
+    flex-wrap: wrap;
+  }
+
+  .projects-flex {
+    margin-bottom: 40px;
+  }
+
+  .projects-wrapper .container {
+    padding: 30px 10px;
+  }
+
+  .projects-flex {
+    margin-right: 15px;
+  }
+
+  .projects-flex :last-child {
+    margin-right: 0;
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
+
+  .works {
+    padding-bottom: 40px;
+  }
+
+  .screen5, .screen6 {
+    padding-bottom: 40px;
+  }
+
+  #mail {
+    padding: 15px 10px 13px 25px;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+  }
+  .info-flex {
+    justify-content: center;
+  }
+
+  .footer-block h3 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .screen5 img, .company-img img, .scr6-block {
+    width: 80%;
+  }
+
+  .company-img {
+    text-align: center;
+  }
+
+  .block-flex {
+    align-items: center;
+  }
+
+  .scr6-block {
+    text-align: center;
   }
 }
